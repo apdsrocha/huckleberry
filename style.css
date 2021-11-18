@@ -8,50 +8,63 @@ body {
   margin: 0;
   padding: 0;
 }
-h2 {
+
+h1,
+h2,
+h3 {
   margin: 0;
 }
+
 main {
   background-color: hsl(0, 0%, 60%);
   padding: 96px 0;
 }
+
 header {
   border-bottom: 8px solid hsl(0, 0%, 30%);
 }
-strong {
-  color: hsl(160, 100%, 30%);
-}
+
 .max-width-wrapper {
   margin: 0 auto;
   max-width: 800px;
 }
+
 .intro-chunk {
   max-width: 400px;
   padding-left: 24px;
   padding-bottom: 32px;
 }
+
+.intro-chunk strong {
+  color: hsl(160, 100%, 30%);
+}
+
 .intro-chunk > p {
   font-size: 1.5rem;
   line-height: 2.25rem;
   padding-bottom: 16px;
 }
+
 .title {
   padding-bottom: 48px;
   padding-top: 96px;
 }
+
 .indented-heading {
   background-color: hsl(45, 100%, 50%);
   border-bottom: 8px solid hsl(45, 100%, 40%);
   padding: 20px 38px;
   margin-left: -38px;
-  max-width: 420px; 
+  width: fit-content; 
 }
+
 .card {
   background-color: hsl(0, 0%, 100%);
   border-bottom: 8px solid hsl(0, 0%, 30%);
   max-width: 715px;
   padding: 8px 24px;
 }
+
 .card > p {
   font-size: 1.25rem;
   line-height: 2rem;
